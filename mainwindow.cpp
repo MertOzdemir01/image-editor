@@ -38,7 +38,7 @@ MainWindow::MainWindow(QWidget *parent)
     db.setHostName("localhost");
     db.setDatabaseName("images");
     db.setUserName("root");
-    db.setPassword("mert.efe78");
+    db.setPassword("password");
     if (!db.open()) {
         QMessageBox::critical(this, tr("Database Error"), db.lastError().text());
     }
