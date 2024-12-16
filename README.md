@@ -1,2 +1,2 @@
 # image-editor
-Image editing application with Qt
+Image editing application made in QtCreator and used OpenCV library
